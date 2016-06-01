@@ -3,6 +3,7 @@
 ## 列表
 
 1. [instaseis-get-seismograms.ipynb](instaseis-get-seismograms.ipynb): 利用 instaseis 获取单个台站的理论地震图
+2. [USTC-wlt.py](USTC-wlt.py): 自动登陆 USTC 网络通
 
 ## 安装
 
