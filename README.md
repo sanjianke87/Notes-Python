@@ -1,5 +1,9 @@
 # Python学习笔记
 
+## 列表
+
+1. [instaseis-get-seismograms.ipynb](instaseis-get-seismograms.ipynb): 利用 instaseis 获取单个台站的理论地震图
+
 ## 安装
 
 1. 安装 [pyenv](https://github.com/yyuu/pyenv)
