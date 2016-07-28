@@ -8,40 +8,6 @@
 4. [obspy-fetch-synthetic-seismograms.ipynb](obspy-fetch-synthetic-seismograms.ipynb): 用 obspy 从 IRIS 获取0到180度内的理论地震图
 5. [obspy-cut-read.py](obspy-cut-read.py): 用 ObsPy 读取 SAC 指定时间窗内的波形
 
-
-## 安装
-
-1. 安装 [pyenv](https://github.com/yyuu/pyenv)
-   ```bash
-   git clone https://github.com/yyuu/pyenv.git ~/.pyenv
-   echo 'export PYENV_ROOT="$HOME/.pyenv"'>> ~/.bashrc
-   echo 'export PATH="$PYENV_ROOT/bin:$PATH"'>> ~/.bashrc
-   echo 'eval "$(pyenv init -)"' >> ~/.bashrc
-   exec $SHELL -l
-   ```
-
-2. 安装 [anaconda](https://www.continuum.io/downloads)
-   ```bash
-   pyenv install anaconda3-4.0.0 --verbose
-   ```
-
-3. 更新预安装的模块
-   ```bash
-   conda update conda
-   conda update anaconda
-   conda update --all
-   ```
-
-4. 使用 conda 安装模块
-   ```bash
-   sh ./conda-install.sh
-   ```
-
-4. 用 pip 安装模块
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ## 我使用的工具
 
 1. [thefuck](https://github.com/nvbn/thefuck): 自动校正命令行中敲错的命令
