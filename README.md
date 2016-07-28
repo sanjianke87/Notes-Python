@@ -2,11 +2,16 @@
 
 ## 列表
 
+### 科研相关
+
 1. [instaseis-get-seismograms.ipynb](instaseis-get-seismograms.ipynb): 利用 instaseis 获取单个台站的理论地震图
-2. [USTC-wlt.py](USTC-wlt.py): 自动登陆 USTC 网络通
-3. [send-mail-to-iris.py](send-mail-to-iris.py): 发送邮件给 IRIS 以申请数据
-4. [obspy-fetch-synthetic-seismograms.ipynb](obspy-fetch-synthetic-seismograms.ipynb): 用 obspy 从 IRIS 获取0到180度内的理论地震图
-5. [obspy-cut-read.py](obspy-cut-read.py): 用 ObsPy 读取 SAC 指定时间窗内的波形
+2. [obspy-fetch-synthetic-seismograms.ipynb](obspy-fetch-synthetic-seismograms.ipynb): 用 obspy 从 IRIS 获取0到180度内的理论地震图
+3. [obspy-cut-read.py](obspy-cut-read.py): 用 ObsPy 读取 SAC 指定时间窗内的波形
+
+### 网络相关
+
+1. [USTC-wlt.py](USTC-wlt.py): 自动登陆 USTC 网络通
+2. [send-mail-to-iris.py](send-mail-to-iris.py): 发送邮件给 IRIS 以申请数据
 
 ## 我使用的工具
 
